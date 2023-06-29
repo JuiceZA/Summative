@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+circle {
+    fill: blue;
+  }
+
+#home-body{
+    overflow: hidden;
+}
+.nav .navbar-left,.nav .navbar-right{
+    display: inline;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.navbar-left svg,.navbar-left .user-name{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-right{
+    padding-right: 433px;
+}
+
+a,ul li{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #0155E5;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+a:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+#home-body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image:url(assets/Path\ 1.svg),url(assets/forrest.svg),url(assets/Ellipse\ 1.svg);
+    background-position: /*Wave*/center bottom,/*Person*/940px 300px,/*Circle*/900px 280px ;
+
+}
+
+#resume-body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image:url(assets/Path\ 4.svg),url(assets/Path\ 5.svg);
+    background-position: 0px 550px,1100px -550px;
+    
+}
+#about-body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image:url(assets/lines\ and\ dots.svg),url(assets/Triangles.png);
+    background-position: -20px 200px,1300px 230px;
+}
+
+.Repeat{
+    position: absolute;
+    left: 1600px;
+    top: 500px;
+}
+
+#pol1{
+    position: relative;
+    top: 200px;
+    right: 50px;
+}
+
+#pol2{
+    position: relative;
+    top: 243px;
+    right: 130px;
+    opacity: 100%;
+}
+
+#pol3{
+    position: relative;
+    top: 300px;
+    right: 200px;
+    opacity: 100%;
+}
+
+#pol4{
+    position: relative;
+    top: 340px;
+    right: 317px;
+    opacity: 100%;
+}
+
+.text{
+    position: relative;
+    top: 250px;
+    left: 530px;
+    font-size: 21px;
+    width: 600px;
+}
+
+.resumeButton{
+    position: relative;
+    top: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0155E5;
+    border: none;
+}
+
+ .books{
+    position: relative;
+    bottom: 570px;
+    left: 110px;
+}
+
+ .ribbon{
+    position:relative;
+    bottom: 600px;
+    left: 1100px;
+}
+
+
+
+.education,.skills,.experience{
+    display: inline-block;
+    width: 600px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.resume-headings{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #0155E5;
+    border: none;
+}
+
+
+.gallery-container{
+    width: 3000px;
+}
+.gallery-container img{
+    width: 300px;
+    margin: 50px;
+    padding-left: 80px;
+}
+
+.page-heading{
+    position: relative;
+    left: 282px;
+    top: 50px;
+    color: #0155E5;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.page-text{
+    position: relative;
+    left: 480px;
+    top: 50px;
+    width: 800px;
+    font-size: 20px;
+}
+
+.icon,.details{
+    display: inline;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.icon{
+    position: relative;
+    left: 282px;
+    top: 50px;
+}
+
+.details{
+    position: relative;
+    left: 282px;
+}
+
+.personal-details{
+    position: relative;
+    top: -60px;
+    left: 420px;
+}
+
+fieldset{
+    background-color: #0155E5;
+    border: none;
+    border-radius: 39px;
+    width: 1000px;
+    position: relative;
+    left: 282px;
+}
+
+input{
+    width: 200px;
+    height: 28px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 70px;
+    width: 400px;
+    border: none;
+    border-radius: 18px;
+}
+
+.formButton{
+    position: relative;
+    left:150px;
+    margin: 18px 100px 20px 0;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    opacity: 62%;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+

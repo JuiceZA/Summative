@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="93" viewBox="0 0 114 93">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="114" height="93" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="PersonIcon" clip-path="url(#clip-path)">
+    <g transform="translate(-274 -340)">
+      <g id="Ellipse_19" data-name="Ellipse 19" transform="translate(274 340)" fill="#0155e5" stroke="#707070" stroke-width="1" opacity="0.12">
+        <ellipse cx="57" cy="46.5" rx="57" ry="46.5" stroke="none"/>
+        <ellipse cx="57" cy="46.5" rx="56.5" ry="46" fill="none"/>
+      </g>
+      <ellipse id="Ellipse_18" data-name="Ellipse 18" cx="24.5" cy="19.5" rx="24.5" ry="19.5" transform="translate(303 381)" fill="#0155e5"/>
+    </g>
+  </g>
+</svg>
